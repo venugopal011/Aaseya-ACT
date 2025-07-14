@@ -1,0 +1,58 @@
+Assignment Test - In-Session Assignment 5:05 PM to 6:00 PM
+
+Assignment in GitHub   --->>    FirstName_LastName_Assignment2.zip
+
+
+1. Exercise: Counting Elements in Tuples and Dictionaries
+
+You are given two data structures:
+
+users – A list of forum users' names along with their nationalities (i.e. a list of tuples).
+nationality_to_continents – A dictionary in which nationalities are keys and continents are values.
+
+Ask: Create a dictionary named users_continents and use it to store the number of users for each continent in the following form:
+
+users_continents = {'Europe': 3, 'Asia': 4, 'North America': 2}
+Use the following data in your solution:
+
+users = [
+('Maria', 'Greek'), ('Jean', 'Maltese'),
+('Juan', 'Spanish'), ('Dima', 'Ukrainian'),
+('Agata', 'Thai'), ('Rafal', 'Polish'),
+('Diego', 'Turkish'), ('Stan', 'Panamanian'),
+('John', 'Australian'), ('Frank', 'Belgian'),
+('Jane', 'Canadian'), ('Paul', 'Argentinian'),
+('Taylor', 'Danish'), ('Kate', 'American'),
+('Mark', 'Sri Lankan'), ('Jane', 'Japanese'),
+('Ted', 'Indian'), ('Jean', 'Egyptian')
+]
+ 
+nationality_to_continents = {
+'Greek': 'Europe', 'Maltese': 'Europe',
+'Spanish': 'Europe', 'Ukrainian': 'Europe',
+'Thai': 'Asia', 'Polish': 'Europe',
+'Turkish': 'Asia', 'Panamanian': 'Central America',
+'Australian': 'Australia', 'Belgian': 'Europe',
+'Canadian': 'North America', 'Argentinian': 'South America',
+'Danish': 'Europe', 'American': 'North America',
+'Sri Lankan': 'Asia', 'Japanese': 'Asia',
+'Indian': 'Asia', 'Egyptian': 'Africa'
+}
+
+
+2. Create a funcion named remove_sql_specialists(people_list). Given a list of tuples, 
+it removes people whose job titles contain the word "SQL" from the list. You can use the in operator to check if a 
+given job title contains the word "SQL". Use the following data containing employee names, job titles, and salaries:
+
+new_hires = [('Mark Adams', 'SQL Analyst', 4000),
+             ('Leslie Burton', 'HR Specialist', 2300),
+             ('Dorothy Castillo', 'UX Designer', 3100)]
+
+3. Python program that accepts a string and calculates the number of digits and letters. [take string input from user]
+Example: Aaseya12345 
+
+
+4. Write a Python program to find numbers between 100 and 400 (both included) where each digit of a number is an even number. 
+The numbers obtained should be printed in a comma-separated sequence.
+
+5. Write a Python program to find the median of five values.[As given by users]
